@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
+        <link href="./css/styles.css" rel="stylesheet" />
+    <title> Movie App </title>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                class="d-inline-block align-top" alt="">
+            Movie App
+        </a>
+    </nav>
+    <div style="margin-top:20px;">
+        <div class="container">
+            <div style="border: 1px solid #ccc; padding: 20px;">
+                <div class="row">
+                    <div class="col-12">        
+                            <!-- to create divisions -->
+                        <form id="movieForm" name="myForm">
+                            <!-- name for entire form -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label> Movie Name </label>
+                                        <input type="text" name="moviename" class="form-control"
+                                            placeholder="Movie Name">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label> Director Name </label>
+                                        <input type="text" name="director" class="form-control"
+                                            placeholder="Director Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label> Genre </label>
+                                        <select class="form-control" name="genre">
+                                            <option value="-1" selected> Select </option>
+                                            <option value="Action"> Action </option>
+                                            <option value="Mystery"> Mystery </option>
+                                            <option value="Fantasy"> Fantasy </option>
+                                            <option value="Western"> Western </option>
+                                            <option value="Thriller"> Thriller </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label> Rating </label>
+                                        <input name="rating" type="number" class="form-control" placeholder="Rating">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button onclick="onSubmit()" id="addBtn" type="button" class="btn btn-success"> Add Movie </button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                Movie List
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-bordered table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col"> Movie Name </th>
+                                            <th scope="col"> Director </th>
+                                            <th scope="col"> Genre </th>
+                                            <th scope="col"> Rating </th>
+                                            <th scope="col"> Action </th>
+                                        </tr>
+                                    </thead>
+                                    
+                                    <tbody id = "table-data">
+
+                                    </tbody>
+                                </table>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

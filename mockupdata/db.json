@@ -1,0 +1,74 @@
+{
+    "movies": [
+        {
+            "moviename": "The Equalizer",
+            "genre": "Action",
+            "director": "Antoine Fuqua",
+            "rating": 3.8,
+            "id": 1
+        },
+        {
+            "moviename": "Mad Max: Fury Road",
+            "genre": "Action",
+            "director": "George Miller",
+            "id": 2,
+            "rating": 5
+        },
+        {
+            "moviename": "The Dark Knight Rises",
+            "genre": "Thriller",
+            "director": "Christopher Nolan",
+            "rating": 4.5,
+            "id": 3
+        },
+        {
+            "moviename": "The Departed",
+            "genre": "Thriller",
+            "director": "Martin Scorsese",
+            "id": 4,
+            "rating": 4
+        },
+        {
+            "moviename": "The Good, the Bad and the Ugly",
+            "genre": "Western",
+            "director": "Sergio Leone",
+            "id": 5,
+            "rating": 5
+        },
+        {
+            "moviename": "Pat Garrett & Billy the Kid",
+            "genre": "Western",
+            "director": "Sam Peckinpah",
+            "id": 6,
+            "rating": 3.8
+        },
+        {
+            "moviename": "Captain Marvel",
+            "genre": "Fantasy",
+            "director": "Anna Boden",
+            "id": 7,
+            "rating": 4.1
+        },
+        {
+            "moviename": "Avengers: Infinity War",
+            "genre": "Fantasy",
+            "director": "Anthony Russo",
+            "id": 8,
+            "rating": 4.3
+        },
+        {
+            "moviename": "Gone Girl",
+            "genre": "Mystery",
+            "director": "David Fincher",
+            "id": 9,
+            "rating": 3.5
+        },
+        {
+            "moviename": "Shutter Island",
+            "genre": "Mystery",
+            "director": "Martin Scorsese",
+            "id": 10,
+            "rating": 4.9
+        }
+    ]
+}
